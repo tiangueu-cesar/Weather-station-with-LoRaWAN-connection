@@ -1,0 +1,22 @@
+<div>
+  <h1>Wetterstation mit LoRaWAN-Anbindung</h1>
+</div>
+<div class="sensor">
+  <div class="temp">
+    <h5> Temperatur ({{ "°C" }})</h5>
+    <smart-gauge #gauge id="temperatur" [analogDisplayType]="'needle'" [digitalDisplay]="true"
+               [startAngle]="-30" [endAngle]="210" [min]="0" [max]="38" [value]=sensorsData.temp></smart-gauge>
+  </div>
+
+  <div class="temp">
+    <h5> Pressure ({{ "hPa" }})</h5>
+    <smart-gauge #gauge id="press" [analogDisplayType]="'needle'" [digitalDisplay]="true"
+                 [startAngle]="-30" [endAngle]="210" [min]="0" [max]="1200" [value]=sensorsData.press></smart-gauge>
+  </div>
+
+  <div class="temp">
+    <h5> Humidity ({{ "%" }})</h5>
+    <smart-gauge #gauge id="hum" [analogDisplayType]="'needle'" [digitalDisplay]="true"
+                 [startAngle]="-30" [endAngle]="210" [min]="0" [max]="100" [value]=sensorsData.hum></smart-gauge>
+  </div>
+</div>

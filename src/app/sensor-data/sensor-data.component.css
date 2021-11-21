@@ -1,0 +1,36 @@
+
+
+/* This is the CSS used in the demo */
+smart-gauge {
+  width:250px;
+}
+
+.temp {
+  margin-left: 30%;
+  margin-top: 12px;
+}
+
+h5 {
+  margin-left: 8.5%;
+}
+
+span {
+  margin-left: 10%;
+  margin-top: 50px;
+}
+
+.unity {
+  padding-bottun: 10px;
+}
+
+.sensor {
+  border: solid 1px black;
+  width: 30%;
+  height: 1%;
+  margin-left: 35%;
+  margin-top: 1px;
+}
+
+h1 {
+  text-align: center;
+}
